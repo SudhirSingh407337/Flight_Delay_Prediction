@@ -26,3 +26,19 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 - 539,383 total flight records
 - Balanced distribution with ~44.7% delayed flights
 - Multiple airlines and airport routes represented
+
+---
+
+## 🔧 Key Techniques Implemented
+
+### 1. Data Exploration & Visualization
+
+- **Target Distribution Analysis**: Bar and pie charts showing delay vs on-time flight proportions
+- **Time-Based Pattern Discovery**: 6-panel visualization dashboard revealing:
+  - Hourly delay patterns throughout the day
+  - Day-of-week delay variations  
+  - Time period analysis (Morning, Afternoon, Evening, Night)
+  - Airline performance ranking
+  - Flight length distribution by delay status
+  - Weekday vs weekend delay patterns
+- **Key Insights**: Evening flights show highest delay rates, with cascading delays throughout the day
