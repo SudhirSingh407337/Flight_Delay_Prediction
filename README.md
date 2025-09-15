@@ -42,3 +42,14 @@ The dataset (`Airlines.csv`) contains flight records with the following features
   - Flight length distribution by delay status
   - Weekday vs weekend delay patterns
 - **Key Insights**: Evening flights show highest delay rates, with cascading delays throughout the day
+
+- ### 2. Time-Based Feature Extraction
+
+- **Hour Extraction**: Converting time to 24-hour format (0-23)
+- **Minute Extraction**: Extracting minute component for granular time analysis
+- **Time Period Categorization**: Grouping flights into meaningful periods:
+  - Morning (5:00-11:59)
+  - Afternoon (12:00-16:59) 
+  - Evening (17:00-20:59)
+  - Night (21:00-4:59)
+- **Day Type Classification**: Weekday vs Weekend categorization for operational pattern analysis
