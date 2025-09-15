@@ -53,3 +53,22 @@ The dataset (`Airlines.csv`) contains flight records with the following features
   - Evening (17:00-20:59)
   - Night (21:00-4:59)
 - **Day Type Classification**: Weekday vs Weekend categorization for operational pattern analysis
+
+### 3. Cyclical Encoding Implementation
+
+**🌟 Core Innovation**: Transforming linear time features into cyclical coordinates
+
+- **Mathematical Foundation**: Using sine and cosine transformations:
+  ```
+  sin_feature = sin(2π × value / max_value)
+  cos_feature = cos(2π × value / max_value)
+  ```
+- **Applied to Multiple Time Dimensions**:
+  - Hour cyclical encoding (24-hour cycle)
+  - Day of week cyclical encoding (7-day cycle)
+  - Minute cyclical encoding (60-minute cycle)
+- **Key Benefits**:
+  - Hour 23 and Hour 0 are mathematically close
+  - Sunday and Monday maintain proper temporal relationship
+  - Models can learn periodic patterns effectively
+- **Visualization**: Dual-plot showing sine/cosine waves for each time dimension
