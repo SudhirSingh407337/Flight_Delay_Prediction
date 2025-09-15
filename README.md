@@ -72,3 +72,13 @@ The dataset (`Airlines.csv`) contains flight records with the following features
   - Sunday and Monday maintain proper temporal relationship
   - Models can learn periodic patterns effectively
 - **Visualization**: Dual-plot showing sine/cosine waves for each time dimension
+
+### 4. Advanced Feature Engineering
+
+- **Categorical Encoding**: Label encoding for airlines, airports, and time periods
+- **Route Analysis**: 
+  - Unique route identification (AirportFrom_AirportTo)
+  - Route-specific delay rate calculation
+- **Airline Performance Metrics**: Historical delay rates per airline
+- **Airport Congestion Features**: Hourly flight volume per departure airport
+- **Feature Integration**: Merging engineered features with original dataset
