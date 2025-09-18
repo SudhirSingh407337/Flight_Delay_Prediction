@@ -82,3 +82,18 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 - **Airline Performance Metrics**: Historical delay rates per airline
 - **Airport Congestion Features**: Hourly flight volume per departure airport
 - **Feature Integration**: Merging engineered features with original dataset
+
+### 5. Model Training & Comprehensive Evaluation
+
+- **Multi-Algorithm Approach**:
+  - **Random Forest**: Ensemble of 100 decision trees with parallel processing
+  - **Gradient Boosting**: Sequential 100-stage boosting algorithm
+  - **Logistic Regression**: Linear model with feature scaling
+- **Smart Data Handling**: 
+  - Scaled features for Logistic Regression
+  - Original features for tree-based models
+- **Performance Metrics**:
+  - Accuracy, Precision, Recall, F1-Score
+  - Confusion matrices for detailed error analysis
+  - Model comparison dashboard
+- **Train-Test Split**: 80-20 split with stratification to maintain delay distribution
