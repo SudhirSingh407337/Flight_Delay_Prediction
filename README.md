@@ -109,3 +109,9 @@ The models achieved the following performance on the test set:
 | **Gradient Boosting** | **66.32%** | **66.30%** | **49.61%** | **56.75%** |
 | Logistic Regression | 65.72% | 64.97% | 50.02% | 56.52% |
 | Random Forest | 61.83% | 57.41% | 55.45% | 56.41% |
+
+
+**🥇 Best Model: Gradient Boosting**
+- Optimal balance between precision and recall
+- Fewest false alarms while maintaining delay detection capability
+- Superior handling of feature interactions
