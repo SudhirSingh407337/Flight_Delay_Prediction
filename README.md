@@ -115,3 +115,11 @@ The models achieved the following performance on the test set:
 - Optimal balance between precision and recall
 - Fewest false alarms while maintaining delay detection capability
 - Superior handling of feature interactions
+
+### Key Findings:
+
+- **Time Patterns**: Evening flights (17:00-21:00) show significantly higher delay rates
+- **Cyclical Encoding Impact**: Enabled models to understand that late-night and early-morning flights share similar operational characteristics
+- **Airline Performance**: Clear performance differences between airlines, with delay rates varying by 10-20%
+- **Route Sensitivity**: Specific airport pairs show consistently higher delay patterns
+- **Weekend Effect**: Weekends show different delay patterns compared to weekdays
