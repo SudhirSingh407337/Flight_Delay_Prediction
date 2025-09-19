@@ -97,3 +97,15 @@ The dataset (`Airlines.csv`) contains flight records with the following features
   - Confusion matrices for detailed error analysis
   - Model comparison dashboard
 - **Train-Test Split**: 80-20 split with stratification to maintain delay distribution
+
+---
+
+## 🏆 Results
+
+The models achieved the following performance on the test set:
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|---------|----------|
+| **Gradient Boosting** | **66.32%** | **66.30%** | **49.61%** | **56.75%** |
+| Logistic Regression | 65.72% | 64.97% | 50.02% | 56.52% |
+| Random Forest | 61.83% | 57.41% | 55.45% | 56.41% |
