@@ -145,5 +145,18 @@ scikit-learn >= 1.0.0
 ```
 
 ---
+## 🚀 How to Use
 
+### For Google Colab:
+1. Upload `Airlines.csv` to your Colab environment
+2. Open `Flight_Delay_Prediction.ipynb`
+3. Run all cells sequentially
+
+### For Local Environment:
+1. Clone this repository
+2. Install required packages: `pip install -r requirements.txt`
+3. Ensure `Airlines.csv` is in the same directory
+4. Run the Jupyter notebook `Flight_Delay_Prediction.ipynb`
+
+---
 
