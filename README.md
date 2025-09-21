@@ -160,3 +160,15 @@ scikit-learn >= 1.0.0
 
 ---
 
+## 📁 File Structure
+
+```
+Flight_Delay_Prediction/
+├── Flight_Delay_Prediction.ipynb    # Main analysis notebook
+├── Airlines.csv                     # Flight delay dataset
+├── README.md                       # This documentation
+└── requirements.txt                # Python dependencies
+```
+
+---
+
