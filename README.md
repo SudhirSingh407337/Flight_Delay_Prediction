@@ -130,3 +130,20 @@ The models achieved the following performance on the test set:
 - **Passenger Experience**: Proactive communication for likely delayed flights
 - **Resource Optimization**: Better gate management and crew scheduling
 - **Revenue Protection**: Reduced compensation costs through improved delay management
+
+---
+
+## 💻 Requirements
+
+```
+Python 3.8+
+pandas >= 1.3.0
+numpy >= 1.20.0
+matplotlib >= 3.4.0
+seaborn >= 0.11.0
+scikit-learn >= 1.0.0
+```
+
+---
+
+
