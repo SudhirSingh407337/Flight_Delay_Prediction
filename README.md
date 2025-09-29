@@ -11,6 +11,10 @@ This project focuses on **predicting flight delays** using advanced time-based f
 
 ## 📊 Dataset
 
+[![Flight Delay Prediction: Dataset](https://img.youtube.com/vi/HgaxADaYRKg/0.jpg)](https://youtu.be/HgaxADaYRKg)
+
+[Flight Delay Prediction: Dataset](https://youtu.be/HgaxADaYRKg)  
+
 The dataset (`Airlines.csv`) contains flight records with the following features:
 
 - **Airline**: Name of the airline operating the flight
@@ -33,6 +37,10 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 
 ### 1. Data Exploration & Visualization
 
+[![Flight Delay Prediction: Data Exploration & Visualization](https://img.youtube.com/vi/FFjo4gXljmo/0.jpg)](https://youtu.be/FFjo4gXljmo)
+
+[Flight Delay Prediction: Data Exploration & Visualization](https://youtu.be/FFjo4gXljmo)  
+
 - **Target Distribution Analysis**: Bar and pie charts showing delay vs on-time flight proportions
 - **Time-Based Pattern Discovery**: 6-panel visualization dashboard revealing:
   - Hourly delay patterns throughout the day
@@ -45,6 +53,10 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 
 - ### 2. Time-Based Feature Extraction
 
+[![Flight Delay Prediction: Time Based Feature Extraction](https://img.youtube.com/vi/Ek2zzIZ6iPY/0.jpg)](https://youtu.be/Ek2zzIZ6iPY)
+
+[Flight Delay Prediction: Time Based Feature Extraction](https://youtu.be/Ek2zzIZ6iPY)  
+
 - **Hour Extraction**: Converting time to 24-hour format (0-23)
 - **Minute Extraction**: Extracting minute component for granular time analysis
 - **Time Period Categorization**: Grouping flights into meaningful periods:
@@ -55,6 +67,10 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 - **Day Type Classification**: Weekday vs Weekend categorization for operational pattern analysis
 
 ### 3. Cyclical Encoding Implementation
+
+[![Flight Delay Prediction: Cyclical Encoding Implementation](https://img.youtube.com/vi/Uu_GKdCMwg8/0.jpg)](https://youtu.be/Uu_GKdCMwg8)
+
+[Flight Delay Prediction: Cyclical Encoding Implementation](https://youtu.be/Uu_GKdCMwg8) 
 
 **🌟 Core Innovation**: Transforming linear time features into cyclical coordinates
 
@@ -75,6 +91,10 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 
 ### 4. Advanced Feature Engineering
 
+[![Flight Delay Prediction: Advanced Feature Engineering](https://img.youtube.com/vi/ZftG_YS3PqU/0.jpg)](https://youtu.be/ZftG_YS3PqU)
+
+[Flight Delay Prediction: Advanced Feature Engineering](https://youtu.be/ZftG_YS3PqU)  
+
 - **Categorical Encoding**: Label encoding for airlines, airports, and time periods
 - **Route Analysis**: 
   - Unique route identification (AirportFrom_AirportTo)
@@ -84,6 +104,10 @@ The dataset (`Airlines.csv`) contains flight records with the following features
 - **Feature Integration**: Merging engineered features with original dataset
 
 ### 5. Model Training & Comprehensive Evaluation
+
+[![Flight Delay Prediction: Model Training & Evaluation](https://img.youtube.com/vi/_zBX_w1FeuQ/0.jpg)](https://youtu.be/_zBX_w1FeuQ)
+
+[Flight Delay Prediction: Model Training & Evaluation](https://youtu.be/_zBX_w1FeuQ)  
 
 - **Multi-Algorithm Approach**:
   - **Random Forest**: Ensemble of 100 decision trees with parallel processing
